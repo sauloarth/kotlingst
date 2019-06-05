@@ -1,5 +1,8 @@
 import java.util.*
 
+//LinkedList funciona como ArrayList mas ocupa apenas o espaço necessário para suas operações
+//Contras: queries são mais lentas ( O(n) )
+
 fun main(){
 
     val petList = LinkedList<String>()
